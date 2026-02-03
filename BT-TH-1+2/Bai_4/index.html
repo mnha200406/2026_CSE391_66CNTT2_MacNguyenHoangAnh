@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/flex.css">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container">
+
+            <div class="basic-info">
+                <h2 class="border-bottom"> Basic Info</h2>
+                <form action="" method="post" class="bold">
+
+                    <div class="bi-employee-id margin-change">
+                        <span> Employee ID</span>
+                        <input class="width-change margin-change-1" type="number" value="9">
+                    </div>
+
+                    <div class="bi-last-name margin-change">
+                        <span> Last Name</span>
+                        <input class="margin-change-1" type="text" value="Dodsworth">
+                    </div>
+
+                    <div class="bi-first-name margin-change">
+                        <span> First Name</span>
+                        <input type="text" value="Anne">
+                    </div>
+
+                    <div class="bi-gender d-flex margin-change">
+                        <span> Gender</span>
+                        <div class="gender-list lighter">
+                            <div class="gender-male">
+                                <input type='radio' name="g1"/> <span> Male</span>
+                            </div>
+                            <div class="gender-female">
+                                <input type='radio' name="g2"/> <span> Female</span>
+                            </div>
+                            <div class="gender-xxx">
+                                <input type='radio' name="g3"/> <span> XXX</span>
+                            </div>
+                            <div class="gender-zzz">
+                                <input type='radio' name="g4"/> <span> ZZZ</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bi-title margin-change">
+                        <span> Title</span>
+                        <input type="text" value="Sales Representative">
+                    </div>
+
+                    <div class="bi-suffix margin-change">
+                        <span> Suffix</span>
+                        <input type="text" value="Ms.">
+                    </div>
+
+                    <div class="bi-birthdate margin-change">
+                        <span> BirthDate</span>
+                        <input type="datetime-local" value="1969-07-02 00:00:00">
+                    </div>
+
+                    <div class="bi-hiredate margin-change">
+                        <span> HireDate</span>
+                        <input type="datetime-local" value="1994-11-15 00:00:00">
+                    </div>
+
+                    <div class="bi-SSN margin-change">
+                        <span> SSN # (if applicable)</span>
+                        <input type="text">
+                    </div>
+
+                    <div class="bi-reports margin-change">
+                        <span> Reports To</span>
+                        <select>
+                            <option selected> Buchanan</option>
+                            <option> John Wick</option>
+                            <option> Peter Quill</option>
+                            <option> Captain America</option>
+                            <option> Eimi Fukada</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+
+            <div class="contact-info">
+                <h2 class="border-bottom"> Contact Info</h2>
+                <form action="" method="post" class="bold">
+
+                    <div class="ci-email margin-change">
+                        <span> Email</span>
+                        <input type="email" placeholder="name@example.com">
+                    </div>
+
+                    <div class="ci-address margin-change">
+                        <span> Address</span>
+                        <input type="text" value="7 Houndstooth Rd.">
+                    </div>
+
+                    <div class="ci-city margin-change">
+                        <span> City</span>
+                        <input type="text" value="London">
+                    </div>
+
+                    <div class="ci-region margin-change">
+                        <span> Region</span>
+                        <input type="text">
+                    </div>
+
+                    <div class="ci-code margin-change">
+                        <span> Postal Code</span>
+                        <input type="text" value="WG2 7LT">
+                    </div>
+
+                    <div class="ci-country margin-change">
+                        <span> Country</span>
+                        <select>
+                            <option selected> Russian Federation</option>
+                            <option> United States</option>
+                            <option> United Kingdon</option>
+                            <option> Vietnam</option>
+                            <option> China</option>
+                            <option> Mongolia</option>
+                        </select>
+                    </div>
+
+                    <div class="ci-phone margin-change">
+                        <span> US Home Phone</span>
+                        <input type="tel" value="(234)234-2342">
+                    </div>
+
+                    <div class="ci-photo margin-change">
+                        <span> Photo</span>
+                        <input type="text" value="EmpID9.bmp">
+                    </div>
+                </form>
+            </div>
+
+            <div class="optional-info">
+                <h2 class="border-bottom"> Optional Info</h2>
+                <form action="" method="post" class="bold">
+
+                    <div class="oi-note margin-change">
+                        <span> Notes</span>
+                        <textarea cols="60" rows="10"></textarea>
+                    </div>
+
+                    <div class="oi-shift d-flex margin-change">
+                        <span> Preferred Shift</span>
+                        <div class="shift-list lighter">
+                            <div>
+	                            <input type='checkbox'> <span>Regular</span>
+                            </div>
+                            <div>
+                                <input type="checkbox"> <span> Gravy Yard</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="oi-active margin-change">
+                        <span> Active?</span>
+                        <input type="checkbox">
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

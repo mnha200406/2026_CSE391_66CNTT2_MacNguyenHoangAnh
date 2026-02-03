@@ -1,0 +1,27 @@
+/* RESET CSS */
+body{
+    margin: 0;
+}
+table, th, td, tr{
+    border: 1px solid #222;
+}
+table{
+    border-spacing: 0;
+    border-collapse:collapse
+}
+.bold{
+    font-weight: bold;
+}
+.lighter{
+    font-weight: lighter;
+}
+.border-bottom{
+    border-bottom: 1px solid black;
+}
+.margin-change{
+    margin-left: 20px;
+    margin-top: 12px;
+}
+.margin-change-1{
+    margin-left: 24px;
+}

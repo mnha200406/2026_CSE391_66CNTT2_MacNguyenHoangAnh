@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+}
+.text-white{
+    color: white;
+}
+.bg-black{
+    background-color: black;
+}
+.nav-list{
+    padding: 0;
+    list-style-type: none;
+}
+.nav-link{
+    display: block;
+}
+.logo p{
+    font-weight: bold;
+    font-size: 24px;
+}
+.header-actions input{
+    height: 32px;
+    border-radius: 6px;
+    border: none;
+}
+.header-actions button{
+    height: 32px;
+    border: 1px solid #fff;
+    background-color: black;
+    color: #fff;
+    border-radius: 6px;
+}
+.opacity{
+    opacity: 50%;
+}
+.add-employee button{
+    background-color: rgb(31, 126, 242);
+    border-radius: 6px;
+    color: #fff;
+    border: none;
+    height: 36px;
+    padding: 4px 12px;
+}
+.section{
+    background-color: rgb(231, 227, 227);
+}
+table,tr{
+    border: 1px solid #e4dddd;
+    width: 850px;
+    text-align: center;
+    background-color: white;
+}
+table{
+    border-spacing: 0;
+    border-collapse:collapse;
+}
+.edit-btn{
+    border: none;
+    background-color: orange;
+    border-radius: 6px;
+    padding: 4px 10px;
+}
+.delete-btn{
+    border: none;
+    background-color: rgb(234, 84, 109);
+    border-radius: 6px;
+    color: #fff;
+    padding: 4px 12px
+}
+.padding-change{
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.dropdown-list{
+    width: max-content;
+    padding: 12px;
+    background-color: #fff;
+    color: white;
+    border: 1px solid #2222224a;
+    display: none;
+    position: absolute;
+    top: 100%;
+    border-radius: 6px;
+}
+form {
+    position: relative;
+    display: inline-block;
+}
+
+.new-employee {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 420px;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.25s ease;
+    z-index: 10;
+}
+
+form:hover .new-employee {
+    opacity: 1;
+    visibility: visible;
+}
