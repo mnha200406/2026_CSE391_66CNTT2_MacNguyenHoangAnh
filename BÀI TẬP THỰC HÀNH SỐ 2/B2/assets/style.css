@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*HEADER*/
+.container{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid black;
+    background-color: #27888d;
+    position: fixed;
+}
+.logo-text{
+    font-weight: bold;
+    color: yellow;
+    font-family: Luckiest Guy;
+    font-size: 30px;
+    margin-left: 5%;
+}
+.nav-item{
+    text-decoration-line: none;
+    list-style-type: none;
+    font-size: large;
+    color: rgb(200, 255, 0);
+}
+.navigation{
+    margin-right: 5%;
+}
+
+/*MAIN*/
+/*SECTION-BANNER*/
+.banner{
+    width: 100%;
+    height: 500px;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.slogan{
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 100p;
+    background-color: rgb(154, 147, 147);
+}
+/*SECTION-HIGHLIGHTS*/
+.highlights-text{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.highlights-place{
+    width: 100%;
+    height: 200px;
+}
+.highlights-place-usa{
+    width: 350px;
+    height: 100%;
+}
+.highlights-place-usa img{
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+}
+.text-align{
+    text-align: center;
+}
+.place{
+    color: grey;
+    font-size: 12px;
+}
+.country{
+    color: rgb(4, 125, 85);
+    font-weight: bold;
+    font-size: 12px;
+}
+.highlights{
+    background-color: rgb(169, 216, 199);
+}
+/*FOOTER*/
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+.social-media-contact img{
+    width: 28px;
+    height: 28px;
+}
